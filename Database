@@ -1,0 +1,10 @@
+CREATE DATABASE store_db;
+USE store_db;
+CREATE TABLE products (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    price DOUBLE
+);
+INSERT INTO products VALUES (1, 'Laptop', 55000.00);
+INSERT INTO products VALUES (2, 'Smartphone', 25000.00);
+INSERT INTO products VALUES (3, 'Headphones', 1500.00);
